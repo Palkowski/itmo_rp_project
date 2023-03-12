@@ -67,6 +67,9 @@ RUN pip install numpy scikit-image
 RUN pip install pillow 
 RUN pip install opencv-contrib-python
 
+# Python packages
+RUN pip install matplotlib
+
 # Turtlebot dependencies
 RUN apt-get update && apt-get install -y \
     ros-melodic-dynamixel-sdk \

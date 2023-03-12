@@ -21,4 +21,8 @@ then:
 export TURTLEBOT3_MODEL=burger
 roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch
 ```
-
+in new terminal tab:
+```bash
+bash docker/exec_docker.sh
+python catkin_ws/src/bot_control/bot_control.py 
+```
